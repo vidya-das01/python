@@ -1,0 +1,6 @@
+s=input("enter the string: ")
+first_char=s[0]
+last_char=s[-1]
+new_string=last_char+s[1:-1]+first_char
+print(new_string)
+
